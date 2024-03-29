@@ -1,0 +1,74 @@
+@media screen and (max-width:1200px) {
+    body.toggle .navlink {
+        transform: translateX(0);
+
+    }
+
+    .open {
+        display: block !important;
+        color: #fff;
+        font-size: 30px;
+    }
+
+    .closebutton {
+        display: block !important;
+        position: absolute;
+        top: 20px;
+        right: 40px;
+        color: #fff;
+        font-size: 25px;
+    }
+
+    .saerchbar {
+        display: none;
+    }
+
+
+    .navlink {
+        transform: translateX(-100%);
+        transition: all 0.5s linear;
+        position: fixed;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        background: var(--primary-color);
+        width: 400px;
+        padding: 40px;
+        margin: 0;
+        z-index: 9;
+    }
+
+    .navlink ul {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .navbar .navlink {
+        margin-left: -15px;
+
+    }
+
+    .navlink ul li a {
+        color: #fff;
+    }
+
+    .navlink ul li {
+        padding: 10px;
+    }
+
+
+}
+
+@media screen and (max-width:767px) {
+    .resort_detail {
+        padding: 40px 0;
+    }
+
+    .detail_section {
+        padding: 40px 0;
+    }
+}
+
+
+@media screen and (max-width:575px) {}
