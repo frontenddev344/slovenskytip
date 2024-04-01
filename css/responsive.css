@@ -68,6 +68,9 @@
     .detail_section {
         padding: 40px 0;
     }
+    .banner_box h1 {
+        font-size: 35px;
+    }
 }
 
 
