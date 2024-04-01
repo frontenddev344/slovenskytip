@@ -735,7 +735,7 @@ a.btn.btn-primary.setting-cookies:hover {
 .privacy__section {
     position: relative;
     height: 400px;
-    background-image: url(../img/terms.jpg);
+    background-image: url(../img/privacy.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -802,7 +802,7 @@ a.btn.btn-primary.setting-cookies:hover {
 
 }
 
-.terms_conditions::after {
+.terms__section::after {
     content: '';
     position: absolute;
     inset: 0;
@@ -814,7 +814,7 @@ a.btn.btn-primary.setting-cookies:hover {
     padding: 40px 0;
 }
 
-.terms_conditions .banner__text h1 {
+.terms__section.banner__text h1 {
     color: #fff;
     text-transform: uppercase;
 }
