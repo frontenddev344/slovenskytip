@@ -735,7 +735,7 @@ a.btn.btn-primary.setting-cookies:hover {
 .privacy__section {
     position: relative;
     height: 400px;
-    background-image: url(../img/privacybanner.jpg);
+    background-image: url(../img/terms.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -817,21 +817,6 @@ a.btn.btn-primary.setting-cookies:hover {
 .terms_conditions .banner__text h1 {
     color: #fff;
     text-transform: uppercase;
-}
-
-.banner__text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    color: #fff;
-    width: 80%;
-    transform: translate(-50%, -50%);
 }
 
 /* terms styling end */
