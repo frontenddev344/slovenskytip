@@ -94,6 +94,9 @@
     .panel-default>.panel-heading a {
         font-size: 18px !important;
     }
+    .below_banner {
+        padding: 40px 0 !important;
+    }
 }
 
 
