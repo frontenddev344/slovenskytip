@@ -78,7 +78,14 @@
         display: inline-block !important;
         float: unset !important;
     }
+    .detail_section {
+        padding: 40px 0 !important;
+    }
 }
 
 
-@media screen and (max-width:575px) {}
+@media screen and (max-width:575px) {
+    .banner_box h1 {
+        font-size: 30px !important;
+    }
+}
