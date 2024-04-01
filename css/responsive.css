@@ -5,13 +5,13 @@
     }
 
     .open {
-        display: block !important;
+        display: block;
         color: #fff;
         font-size: 30px;
     }
 
     .closebutton {
-        display: block !important;
+        display: block;
         position: absolute;
         top: 20px;
         right: 40px;
@@ -68,52 +68,52 @@
         padding: 40px 0;
     }
     .banner_box h1 {
-        font-size: 35px !important;
+        font-size: 35px;
     }
     
     .footer_inner ul {
-        display: block !important;
+        display: block;
     }
     .social_profile ul li {
-        display: inline-block !important;
-        float: unset !important;
+        display: inline-block;
+        float: unset;
     }
     .detail_section {
-        padding: 40px 0 !important;
+        padding: 40px 0;
     }
     .detail_section h2 {
-        margin-bottom: 20px !important;
-        font-size: 28px !important;
+        margin-bottom: 20px;
+        font-size: 28px;
     }
     .hotel_accordian {
-        padding: 40px 0 !important;
+        padding: 40px 0;
     }
     h2 {
-        font-size: 28px !important;
+        font-size: 28px;
     }
     .panel-default>.panel-heading a {
-        font-size: 18px !important;
+        font-size: 18px;
     }
     .below_banner {
-        padding: 40px 0 !important;
+        padding: 40px 0;
     }
     .hotel_detail {
-        padding: 40px 0 !important;
+        padding: 40px 0;
     }
     .resort_detail {
-         padding: 40px 0 !important; 
+         padding: 40px 0; 
     }
     .spa_detail {
-        padding: 40px 0 !important;
+        padding: 40px 0;
     }
     .about_section h2 {
-        font-size: 22px !important;
+        font-size: 22px;
     }
 }
 
 
 @media screen and (max-width:575px) {
     .banner_box h1 {
-        font-size: 30px !important;
+        font-size: 30px;
     }
 }
