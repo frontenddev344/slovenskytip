@@ -118,5 +118,6 @@
     }
     .panel-default>.panel-heading a {
         font-size: 17px;
+        padding: 10px 20px;
     }
 }
