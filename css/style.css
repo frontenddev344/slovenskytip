@@ -483,7 +483,11 @@ input.form-control.sub_btn:hover {
     box-shadow: inset 4px 2px 2px #fff;
     border-radius: 6px;
 }
-
+.hotel_inner img {
+    object-fit: cover;
+    height: 260px;
+    margin-bottom: 10px;
+}
 .hotel_inner h3 {
 
     color: #fff;
