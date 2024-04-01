@@ -85,6 +85,15 @@
         margin-bottom: 20px !important;
         font-size: 28px !important;
     }
+    .hotel_accordian {
+        padding: 40px 0 !important;
+    }
+    h2 {
+        font-size: 28px !important;
+    }
+    .panel-default>.panel-heading a {
+        font-size: 18px !important;
+    }
 }
 
 
