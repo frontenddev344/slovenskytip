@@ -783,3 +783,55 @@ a.btn.btn-primary.setting-cookies:hover {
 }
 
 /* privacy styling end */
+/* terms styling start */
+.terms__section {
+    position: relative;
+    height: 400px;
+    background-image: url(../img/privacybanner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    margin-top: 0;
+    isolation: isolate;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.terms_conditions::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.55);
+    z-index: -1;
+}
+
+.terms_conditions {
+    padding: 40px 0;
+}
+
+.terms_conditions .banner__text h1 {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.banner__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    width: 80%;
+    transform: translate(-50%, -50%);
+}
+
+/* terms styling end */
