@@ -411,7 +411,9 @@ input.form-control.sub_btn:hover {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     transition: all 0.5s;
 }
-
+.detail_cards img {
+    border-radius: 5px;
+}
 .detail_cards:hover {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     background-color: var(--primary-color);
