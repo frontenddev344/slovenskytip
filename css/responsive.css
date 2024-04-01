@@ -59,7 +59,6 @@
 
 
 }
-
 @media screen and (max-width:767px) {
     .resort_detail {
         padding: 40px 0;
@@ -69,7 +68,15 @@
         padding: 40px 0;
     }
     .banner_box h1 {
-        font-size: 35px;
+        font-size: 35px !important;
+    }
+    
+    .footer_inner ul {
+        display: block !important;
+    }
+    .social_profile ul li {
+        display: inline-block !important;
+        float: unset !important;
     }
 }
 
