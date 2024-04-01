@@ -81,6 +81,10 @@
     .detail_section {
         padding: 40px 0 !important;
     }
+    .detail_section h2 {
+        margin-bottom: 20px !important;
+        font-size: 28px !important;
+    }
 }
 
 
