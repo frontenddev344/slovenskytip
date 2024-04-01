@@ -106,6 +106,9 @@
     .spa_detail {
         padding: 40px 0 !important;
     }
+    .about_section h2 {
+        font-size: 22px !important;
+    }
 }
 
 
