@@ -480,7 +480,6 @@ input.form-control.sub_btn:hover {
     flex-direction: column;
     align-items: center;
     border: 1px solid #fff;
-    box-shadow: inset 4px 2px 2px #fff;
     border-radius: 6px;
 }
 .hotel_inner img {
