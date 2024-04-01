@@ -90,7 +90,7 @@
                     <h2>Najlepšie hotely na Slovensku
                     </h2>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="hotel_inner">
                         <h3>Grand Hotel River Park, a Luxury Collection Hotel, Bratislava</h3>
                         <p>Nachádzajúci sa pri brehoch Dunaja v hlavnom meste Bratislave, Grand Hotel River
@@ -105,7 +105,7 @@
 
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="hotel_inner">
                         <h3>Chateau Belá, Belá</h3>
                         <p>Pre tých, ktorí hľadajú pokojný únik v malebnej prírode, je Chateau Belá skrytým
@@ -121,7 +121,7 @@
 
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="hotel_inner">
                         <h3>Wellness Hotel Patince, Patince</h3>
                         <p>Situovaný v malebnej oblasti južného Slovenska, Wellness Hotel Patince je
@@ -137,7 +137,7 @@
 
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="hotel_inner">
                         <h3>Grand Hotel Kempinski High Tatras, Štrbské Pleso</h3>
                         <p>S umiestnením v nádherných Vysokých Tatrách, je Grand Hotel Kempinski High
@@ -152,7 +152,7 @@
 
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="hotel_inner">
                         <h3> Hotel Elizabeth, Trenčín</h3>
                         <p>Nachádzajúci sa v historickom meste Trenčín, je Hotel Elizabeth butikovým hotelom,
@@ -232,6 +232,19 @@
     <script src="javascript/slick.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <script>
+        $(document).ready(function () {
+            $(".open").click(function () {
+                $("body").addClass("toggle");
+            });
+        });
+        $(document).ready(function () {
+            $(".closebutton").click(function () {
+                $("body").removeClass("toggle");
+            });
+        });
+    </script>
+    <script>
+
         (function () {
             "use strict";
             var cookieAlert = document.querySelector(".cookie-alert");
