@@ -116,4 +116,7 @@
     .banner_box h1 {
         font-size: 30px;
     }
+    .panel-default>.panel-heading a {
+        font-size: 17px;
+    }
 }
