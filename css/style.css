@@ -299,6 +299,11 @@ nav {
     text-align: center;
 }
 
+.best_casinoinner img {
+    object-fit: cover;
+    height: 600px;
+}
+
 /* resort styling end */
 /* about us banner start */
 
