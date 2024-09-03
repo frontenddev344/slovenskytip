@@ -120,4 +120,7 @@
         font-size: 17px;
         padding: 10px 20px;
     }
+    .cookie-alert .card-body.p-5 {
+        padding: 1rem !important;
+    }
 }

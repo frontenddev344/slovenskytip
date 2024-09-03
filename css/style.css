@@ -388,6 +388,7 @@ input.form-control.sub_btn:hover {
     padding: 80px 0;
     text-align: center;
     background-color: #ebebeb;
+    margin-bottom: 50px;
 }
 
 .resort_card {
@@ -853,3 +854,17 @@ a.btn.btn-primary.setting-cookies:hover {
 }
 
 /* terms styling end */
+
+.disclaimer-sec {
+    margin-bottom: 50px;
+}
+.disclaimer-text  h4 {
+    font-size: 25px;
+    color: #000;
+    margin-bottom: 10px;
+}
+.disclaimer-text p{
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #333;
+}
