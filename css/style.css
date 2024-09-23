@@ -559,9 +559,9 @@ footer h3 {
 footer li a {
     color: #fff;
     text-decoration: none;
-    font-size: 18px;
-    display: block;
+   display: block;
     text-transform: capitalize;
+    margin-bottom: 7px;
 }
 
 .footer_icon ul {
