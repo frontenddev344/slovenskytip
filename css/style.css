@@ -765,7 +765,7 @@ a.btn.btn-primary.setting-cookies:hover {
 
 /* accordian styling end */
 /*privacy-policy start*/
-.privacy__section {
+.privacy__section ,.personal__section {
     position: relative;
     height: 400px;
     background-image: url(../img/privacy.jpg);
@@ -783,7 +783,7 @@ a.btn.btn-primary.setting-cookies:hover {
 
 }
 
-.privacy__section::after {
+.privacy__section::after ,.personal__section::after {
     content: '';
     position: absolute;
     inset: 0;
@@ -814,7 +814,6 @@ a.btn.btn-primary.setting-cookies:hover {
     width: 80%;
     transform: translate(-50%, -50%);
 }
-
 /* privacy styling end */
 /* terms styling start */
 .terms__section {
@@ -868,3 +867,20 @@ a.btn.btn-primary.setting-cookies:hover {
     margin-bottom: 10px;
     color: #333;
 }
+
+/* New Pages Styling Start */
+.personal-grp,.return-grp{
+    margin-bottom: 30px;
+}
+.personal-grp h3,.return-grp h3{
+    margin-bottom: 20px;
+}
+.personal-grp ul,.return-grp ul{
+    margin-bottom: 20px;
+}
+.personal-grp ul li,.return-grp ul li{
+    margin-bottom: 5px;
+    list-style-type: disc;
+    margin-left: 16px;
+}
+/* New Pages Styling End */
