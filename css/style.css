@@ -870,16 +870,16 @@ a.btn.btn-primary.setting-cookies:hover {
 }
 
 /* New Pages Styling Start */
-.personal-grp,.return-grp{
+.personal-grp,.return-grp,.about-grp{
     margin-bottom: 30px;
 }
-.personal-grp h3,.return-grp h3{
+.personal-grp h3,.return-grp h3,.about-grp h3{
     margin-bottom: 20px;
 }
-.personal-grp ul,.return-grp ul{
+.personal-grp ul,.return-grp ul,.about-grp ul{
     margin-bottom: 20px;
 }
-.personal-grp ul li,.return-grp ul li{
+.personal-grp ul li,.return-grp ul li,.about-grp ul li{
     margin-bottom: 5px;
     list-style-type: disc;
     margin-left: 16px;
