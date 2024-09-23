@@ -543,6 +543,10 @@ input.form-control.sub_btn:hover {
     width: 150px;
     filter: brightness(0) invert(1);
 }
+.ssl-certificate img {
+    max-width: 200px;
+    filter: brightness(1) invert(0);
+}
 
 footer ul {
     padding-top: 10px;
