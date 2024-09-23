@@ -589,6 +589,7 @@ footer li a {
     padding-top: 0;
     justify-content: center;
     list-style: none;
+    flex-wrap: wrap;
 }
 
 /*START SOCIAL PROFILE CSS*/
