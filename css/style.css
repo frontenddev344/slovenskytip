@@ -767,7 +767,7 @@ a.btn.btn-primary.setting-cookies:hover {
 .privacy__section ,.personal__section,.about__section,.contact__section,.return__section {
     position: relative;
     height: 400px;
-    background-color: rgba(0, 0, 0, 0.65);
+    background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-size: cover;
