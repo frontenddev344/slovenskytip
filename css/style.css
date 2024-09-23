@@ -11,14 +11,12 @@
     font-family: "Montserrat", sans-serif;
 }
 
-ul,
-li,
-p,
-a {
+ul, li, p, a {
     text-decoration: none;
     list-style: none;
     margin: 0;
     padding: 0;
+    margin-bottom: 15px;
 }
 
 h1,
@@ -766,10 +764,11 @@ a.btn.btn-primary.setting-cookies:hover {
 
 /* accordian styling end */
 /*privacy-policy start*/
-.privacy__section ,.personal__section {
+.privacy__section ,.personal__section,.about__section,.contact__section,.return__section {
     position: relative;
     height: 400px;
-    background-image: url(../img/privacy.jpg);
+    background-color: rgba(0, 0, 0, 0.65);
+    background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -781,8 +780,28 @@ a.btn.btn-primary.setting-cookies:hover {
     justify-content: center;
     align-items: center;
     text-align: center;
-
 }
+.privacy__section{
+    background-image: url(../img/privacy.jpg);
+}
+.personal__section{
+    background-image: url(../img/personal-banner-image.jpg);  
+}
+.about__section{
+    background-image: url(../img/about-us-banner-image.jpg);  
+}
+.contact__section{
+    background-image: url(../img/contact-banner-image.jpg);  
+}
+.return__section{
+    background-image: url(../img/return-refund-banner-image.jpg);  
+}
+
+
+
+
+
+
 
 .privacy__section::after ,.personal__section::after {
     content: '';
@@ -875,6 +894,9 @@ a.btn.btn-primary.setting-cookies:hover {
 }
 .personal-grp h3,.return-grp h3,.about-grp h3{
     margin-bottom: 20px;
+}
+.personal-grp p,.return-grp p,.about-grp p{
+    margin-bottom: 15px;
 }
 .personal-grp ul,.return-grp ul,.about-grp ul{
     margin-bottom: 20px;
